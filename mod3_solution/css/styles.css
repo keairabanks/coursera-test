@@ -1,0 +1,68 @@
+#header-nav{
+  background-color: #ecc6d9;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand{
+  padding-top: 15px;
+}
+
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: rgb(7, 7, 7);
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand p { /* Kosher cert */
+  color: #000;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
+}
+
+body {
+  font-size: 16px;
+  color: rgb(7, 7, 7);
+  font-family: 'Oxygen', sans-serif;
+}
+
+h2{
+  font-family: Oxygen;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.menu-title{
+  font-family: Oxygen;
+  font-weight: bold;
+  font-size: .9em;
+}
+
+#chicken-content-upper, #beef-content-upper, #sushi-content-upper {
+  background-color: rgba(1, 1, 12, 0.329);
+  margin-bottom: 30px;
+}
+
+.menu-content{
+  padding: 15px;
+}
+
+#nav-list{
+  background-color:lightsalmon;
+}
+
+section{
+  height: 3000px;
+  width: 100%;
+  background-color: lightgray;
+}
